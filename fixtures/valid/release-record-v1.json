@@ -1,0 +1,113 @@
+{
+  "apple": {
+    "certificateSha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "gatekeeper": {
+      "application": "accepted",
+      "installer": "accepted"
+    },
+    "notarizationStatus": "accepted",
+    "notarizationSubmissions": [
+      {
+        "artifactRole": "application",
+        "status": "accepted",
+        "submissionId": "fixture-application-submission"
+      },
+      {
+        "artifactRole": "installer",
+        "status": "accepted",
+        "submissionId": "fixture-installer-submission"
+      }
+    ],
+    "signingIdentity": "TEST FIXTURE ONLY",
+    "teamId": "FIXTURE123",
+    "ticketStapled": true
+  },
+  "build": {
+    "runAttempt": 1,
+    "runId": "123",
+    "runnerImage": "macos-15",
+    "tools": {
+      "cargo": "cargo 1.95.0",
+      "node": "v24.0.0",
+      "npm": "11.0.0",
+      "rustc": "rustc 1.95.0",
+      "tauri": "2.11.4"
+    },
+    "workflowCommitSha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "workflowPath": ".github/workflows/release-candidate.yml",
+    "workflowRepository": "mastylolabs/172x-command"
+  },
+  "createdAt": "2026-08-28T12:00:00Z",
+  "distribution": {
+    "contractCommitSha": "dddddddddddddddddddddddddddddddddddddddd",
+    "recordAssetName": "release-record-v1.json",
+    "repository": "mastylolabs/172x-command-releases",
+    "tag": "command-v0.2.0-rc.1"
+  },
+  "download": {
+    "byteLength": 62,
+    "contentType": "application/x-apple-diskimage",
+    "fileName": "172X-Command_0.2.0-rc.1_universal.dmg",
+    "sha256": "46b3f22798ccf5e908afdc9577d9e578172d542951400ac073264fedeb9d36df"
+  },
+  "hostInventory": {
+    "records": [
+      {
+        "deliveryMode": "host-bundled-source",
+        "hostBinding": "community.example-clock",
+        "manifestSha256": "401a734b95aefbd8a24e1eb102f0c0c173a1491e14d8df003d22f060ac31f035",
+        "packageId": "com.mastylolabs.clock",
+        "packageVersion": "1.0.0",
+        "sourceTreeSha256": "a1c7383525aa93ba1d8de44dbe7a385a73e58a99b3ec7b8c26c9d17eef0bc363"
+      }
+    ],
+    "schemaVersion": 1
+  },
+  "marketplace": {
+    "catalogRevision": "w1-private-2026.08.27.1",
+    "catalogSha256": "0bd9ca38ac2e37be8b3b86affb1eebc386e7a2c7ef4ee884f54787d4429fc344",
+    "commitSha": "7a1faa24d291db69f2c6fb4ab2669ba0811ad83a",
+    "contractVersion": "v1",
+    "repository": "mastylolabs/172x-command-marketplace"
+  },
+  "product": {
+    "architectures": [
+      "arm64",
+      "x86_64"
+    ],
+    "bundleIdentifier": "ai.172x.command",
+    "channel": "rc",
+    "minimumMacOS": "13.0",
+    "name": "172X Command",
+    "packageFormat": "universal-dmg",
+    "version": "0.2.0-rc.1"
+  },
+  "provenance": {
+    "byteLength": 2236,
+    "contentType": "application/vnd.in-toto+json",
+    "fileName": "172X-Command_0.2.0-rc.1_provenance.intoto.json",
+    "sha256": "c3b41265df0692eab3eacd082010037e7acdc304e3d735ce7f1e1c6eade69b48"
+  },
+  "recordType": "172x-command-release",
+  "recovery": {
+    "artifactPolicy": "replace-draft-as-complete-verified-set",
+    "draftOnly": true,
+    "publicPromotion": "separate-manual-action",
+    "rollback": "publish-prior-verified-release"
+  },
+  "sbom": {
+    "byteLength": 502,
+    "contentType": "application/vnd.cyclonedx+json",
+    "fileName": "172X-Command_0.2.0-rc.1_sbom.cdx.json",
+    "sha256": "620e9841118942982632eaa47656459e4b781de31030ffcb29ce1369c2e14ee3"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "commitSha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "dirty": false,
+    "repository": "mastylolabs/172x-command",
+    "signedTag": true,
+    "tag": "command-v0.2.0-rc.1",
+    "treeSha": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  }
+}

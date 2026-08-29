@@ -1,0 +1,11 @@
+{
+  "name": "172x-command-release-contract",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "validate:fixture": "node scripts/validate-release.mjs fixtures/valid",
+    "verify": "./scripts/verify.sh"
+  }
+}
