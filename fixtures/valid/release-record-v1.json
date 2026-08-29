@@ -83,10 +83,10 @@
     "version": "0.2.0-rc.1"
   },
   "provenance": {
-    "byteLength": 696,
+    "byteLength": 2236,
     "contentType": "application/vnd.in-toto+json",
     "fileName": "172X-Command_0.2.0-rc.1_provenance.intoto.json",
-    "sha256": "253ca7e719fe2c1848fb0ec5049c1ee6bb6247b594e9bf0e3ec3990d3908c2e5"
+    "sha256": "c3b41265df0692eab3eacd082010037e7acdc304e3d735ce7f1e1c6eade69b48"
   },
   "recordType": "172x-command-release",
   "recovery": {
@@ -96,10 +96,10 @@
     "rollback": "publish-prior-verified-release"
   },
   "sbom": {
-    "byteLength": 441,
+    "byteLength": 502,
     "contentType": "application/vnd.cyclonedx+json",
     "fileName": "172X-Command_0.2.0-rc.1_sbom.cdx.json",
-    "sha256": "f1f4efd230cbd22c9ae1ecb70713dcb27586b76f0ab7c04ac43feb69cc25722e"
+    "sha256": "620e9841118942982632eaa47656459e4b781de31030ffcb29ce1369c2e14ee3"
   },
   "schemaVersion": 1,
   "source": {
@@ -109,28 +109,5 @@
     "signedTag": true,
     "tag": "command-v0.2.0-rc.1",
     "treeSha": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
-  },
-  "updater": {
-    "architectures": [
-      "aarch64",
-      "x86_64"
-    ],
-    "artifact": {
-      "byteLength": 49,
-      "contentType": "application/gzip",
-      "fileName": "172X-Command_0.2.0-rc.1_universal.app.tar.gz",
-      "sha256": "4e9bc1b64848bd52922c4e50f4a5b780775ca77691e4f0a61822cf38303521aa"
-    },
-    "notes": "Representative private release fixture; not distributable.",
-    "publicationDate": "2026-08-28T12:00:00Z",
-    "signatureAsset": {
-      "byteLength": 33,
-      "contentType": "application/octet-stream",
-      "fileName": "172X-Command_0.2.0-rc.1_universal.app.tar.gz.sig",
-      "sha256": "6d0ff9b44fe3270e1726a0fe833e9e9d6a190edeafc3fee58767951f85bc4229"
-    },
-    "target": "darwin",
-    "tauriSignature": "dGVzdC1maXh0dXJlLXNpZ25hdHVyZQ==",
-    "version": "0.2.0-rc.1"
   }
 }
